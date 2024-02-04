@@ -1,0 +1,52 @@
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Jonathan', 'Ruiz', 'jon@gmail.com', 313213, 'M', 32131, '1999-04-10');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Juan', 'Gómez', 'juan@gmail.com', 111111, 'M', 40000, '1995-08-12');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('María', 'López', 'maria@gmail.com', 222222, 'F', 42000, '1992-03-18');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Pedro', 'Hernández', 'pedro@gmail.com', 333333, 'M', 38000, '1987-11-05');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Laura', 'Díaz', 'laura@gmail.com', 444444, 'F', 44000, '1998-09-22');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Miguel', 'Torres', 'miguel@gmail.com', 555555, 'M', 48000, '1991-06-07');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Sofía', 'Ramírez', 'sofia@gmail.com', 666666, 'F', 49000, '1989-04-15');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Andrés', 'Jiménez', 'andres@gmail.com', 777777, 'M', 52000, '1997-01-30');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Elena', 'Vargas', 'elena@gmail.com', 888888, 'F', 43000, '1994-10-08');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Carlos', 'Cruz', 'carlos@gmail.com', 999999, 'M', 47000, '1986-12-03');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Ana', 'Martín', 'ana@gmail.com', 101010, 'F', 51000, '1993-05-19');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('David', 'García', 'david@gmail.com', 121212, 'M', 46000, '1996-07-25');
+
+
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Jonathan', 'Ruiz', 'jon@gmail.com', 313213, 'M', 32131, '1999-04-10');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Juan', 'Gómez', 'juan@gmail.com', 111111, 'M', 40000, '1995-08-12');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('María', 'López', 'maria@gmail.com', 222222, 'F', 42000, '1992-03-18');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Pedro', 'Hernández', 'pedro@gmail.com', 333333, 'M', 38000, '1987-11-05');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Laura', 'Díaz', 'laura@gmail.com', 444444, 'F', 44000, '1998-09-22');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Miguel', 'Torres', 'miguel@gmail.com', 555555, 'M', 48000, '1991-06-07');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Sofía', 'Ramírez', 'sofia@gmail.com', 666666, 'F', 49000, '1989-04-15');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Andrés', 'Jiménez', 'andres@gmail.com', 777777, 'M', 52000, '1997-01-30');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Elena', 'Vargas', 'elena@gmail.com', 888888, 'F', 43000, '1994-10-08');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Carlos', 'Cruz', 'carlos@gmail.com', 999999, 'M', 47000, '1986-12-03');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Ana', 'Martín', 'ana@gmail.com', 101010, 'F', 51000, '1993-05-19');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('David', 'García', 'david@gmail.com', 121212, 'M', 46000, '1996-07-25');
+
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Jonathan', 'Ruiz', 'jon@gmail.com', 313213, 'M', 32131, '1999-04-10');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Juan', 'Gómez', 'juan@gmail.com', 111111, 'M', 40000, '1995-08-12');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('María', 'López', 'maria@gmail.com', 222222, 'F', 42000, '1992-03-18');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Pedro', 'Hernández', 'pedro@gmail.com', 333333, 'M', 38000, '1987-11-05');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Laura', 'Díaz', 'laura@gmail.com', 444444, 'F', 44000, '1998-09-22');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Miguel', 'Torres', 'miguel@gmail.com', 555555, 'M', 48000, '1991-06-07');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Sofía', 'Ramírez', 'sofia@gmail.com', 666666, 'F', 49000, '1989-04-15');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Andrés', 'Jiménez', 'andres@gmail.com', 777777, 'M', 52000, '1997-01-30');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Elena', 'Vargas', 'elena@gmail.com', 888888, 'F', 43000, '1994-10-08');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Carlos', 'Cruz', 'carlos@gmail.com', 999999, 'M', 47000, '1986-12-03');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Ana', 'Martín', 'ana@gmail.com', 101010, 'F', 51000, '1993-05-19');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('David', 'García', 'david@gmail.com', 121212, 'M', 46000, '1996-07-25');
+
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Jonathan', 'Ruiz', 'jon@gmail.com', 313213, 'M', 32131, '1999-04-10');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Juan', 'Gómez', 'juan@gmail.com', 111111, 'M', 40000, '1995-08-12');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('María', 'López', 'maria@gmail.com', 222222, 'F', 42000, '1992-03-18');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Pedro', 'Hernández', 'pedro@gmail.com', 333333, 'M', 38000, '1987-11-05');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Laura', 'Díaz', 'laura@gmail.com', 444444, 'F', 44000, '1998-09-22');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Miguel', 'Torres', 'miguel@gmail.com', 555555, 'M', 48000, '1991-06-07');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Sofía', 'Ramírez', 'sofia@gmail.com', 666666, 'F', 49000, '1989-04-15');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Andrés', 'Jiménez', 'andres@gmail.com', 777777, 'M', 52000, '1997-01-30');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Elena', 'Vargas', 'elena@gmail.com', 888888, 'F', 43000, '1994-10-08');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Carlos', 'Cruz', 'carlos@gmail.com', 999999, 'M', 47000, '1986-12-03');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('Ana', 'Martín', 'ana@gmail.com', 101010, 'F', 51000, '1993-05-19');
+INSERT INTO empleados(nombre, apellido, email, telefono, sexo, salario, fecha) VALUES('David', 'García', 'david@gmail.com', 121212, 'M', 46000, '1996-07-25');

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html
+  lang="es"
+  xmlns:th="http://www.thymeleaf.org"
+  data-bs-theme="dark"
+>
+  <head th:replace="~{layout/layout :: head}">
+    <meta charset="UTF-8" />
+    <title>Gestion de empleados</title>
+  </head>
+  <body>
+    <header th:replace="~{layout/layout :: header}"></header>
+
+    <div class="py-4 mx-5">
+      <div class="card">
+        <div class="card-header" th:text="${titulo}"></div>
+        <div class="card-body">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Email</th>
+                <th>Fecha</th>
+                <th>Telefono</th>
+                <th>Sexo</th>
+                <th>Salario</th>
+                <th>Detalles</th>
+                <th>Editar</th>
+                <th>Eliminar</th>
+              </tr>
+            </thead>
+            <tbody>
+              <div class="card-title">
+                <a class="btn btn-primary" th:href="@{/form}"
+                  >Agregar empleado</a
+                >
+                <a class="btn btn-secondary" th:href="@{/exportarPDF}"
+                  >Exportar a PDF</a
+                >
+                <a class="btn btn-success" th:href="@{/exportarExcel}"
+                  >Exportar a Excel</a
+                >
+              </div>
+              <tr th:each="empleado: ${empleados}">
+                <td th:text="${empleado.id}"></td>
+                <td th:text="${empleado.nombre}"></td>
+                <td th:text="${empleado.apellido}"></td>
+                <td th:text="${empleado.email}"></td>
+                <td th:text="${empleado.fecha}"></td>
+                <td th:text="${empleado.telefono}"></td>
+                <td th:text="${empleado.sexo}"></td>
+                <td th:text="${empleado.salario}"></td>
+                <td>
+                  <a
+                    th:href="@{/ver/}+${empleado.id}"
+                    class="btn btn-info btn-sm"
+                    >Detalles</a
+                  >
+                </td>
+                <td>
+                  <a
+                    th:href="@{/form/}+${empleado.id}"
+                    class="btn btn-warning btn-sm"
+                    >Editar</a
+                  >
+                </td>
+                <td>
+                  <a
+                    th:href="@{/eliminar/}+${empleado.id}"
+                    class="btn btn-danger btn-sm"
+                    onclick="return confirm('¿Esta seguro que desea eliminar el empleado?')"
+                    >Eliminar</a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <nav th:replace="~{paginator-nav :: paginator}"></nav>
+        </div>
+      </div>
+    </div>
+
+    <header th:replace="~{layout/layout :: footer}"></header>
+  </body>
+</html>
